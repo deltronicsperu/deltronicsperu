@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pagina
+{
+	width:1000px;
+	background:white;
+	margin:0 auto;
+	border:medium;
+	border-color:black;
+}
+
+#contenido0
+{
+	height: 490px;
+}
+
+#contenido
+{
+	height: 600px;
+	margin-top:auto 0px;
+}
+
+#contenido2
+{
+	float: right;
+}
+
+#contenido3
+{
+	height: 1700px;
+}
+
+#contenido4
+{
+	height: 700px;
+	margin-top:auto 0px;
+}
+
+#contenido5
+{
+	height: 1100px;
+}
+
+#contenido6
+{
+	height: 1600px;
+}
+
+#Subtitulo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	height:75px;
+}
+
+#texto_1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+#texto_1pro
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	width:250px;
+	float:left;
+}
+
+#texto_1sop
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	width: 700px;
+	float: left;
+}
+
+#texto_3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	width: 700px;
+	float: left;
+	text-align: justify;
+}
+
+#texto_2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left:0px;
+}
+
+#texto_7
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	width: 450px;
+	float: left;
+}
+
+#texto_1 table
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+
+#flash
+{
+	float: right;
+	vertical-align: bottom;
+	width: 250px;
+}
+
+#fotos
+{
+	float: right;
+	alignment-adjust: top;
+}
+
+#img
+{
+	float:right;
+}
+
+#mapa
+{
+	width: 330px;
+	float: right;
+}
+
+#CR
+{
+	background:black;
+	color:#FFF;
+	height:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding-left:0px;
+	padding-top:30px;
+}
+
+#firma
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}

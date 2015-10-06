@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+<title>formulario</title>
+
+<!-- Fav icon -->
+<link rel="shortcut icon" href="./favicon.ico" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+<link rel="stylesheet" type="text/css" href="./style.css" />
+
+
+<!-- jQuery -->
+<script src="./js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="./js/cufon-yui.js" type="text/javascript"></script>
+<script src="./js/titt_100-titt_400.font.js" type="text/javascript"></script>
+
+
+
+<!--[if ie]>
+<style type="text/css" media="screen">
+#Nombre, #Email, #Telefono,#Horario, #Consulta {
+border:1px solid #dedede;
+}
+}
+</style>
+<![endif]--> 
+
+<meta charset="UTF-8"><style type="text/css">
+<!--
+
+-->
+</style></head>
+
+<!-- Body starts -->
+<body>
+<!-- Footer -->
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><script language="JavaScript" type="text/JavaScript">
+	function verifica() {
+		if ((document.form1.Nombre.value == "") || (document.form1.Nombre.value== null)) 
+		{
+			alert("Ingrese su Nombre"); 
+			document.form1.Nombre.focus();
+			return false;
+		}
+		else
+		var checkOK = "ABCDEFGHIJKLMNNOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnnopqrstuvwxyzáéíóú ";
+ 		var checkStr = document.form1.Nombre.value;
+  		var allValid = true;
+  		for (i = 0;  i < checkStr.length;  i++)
+  		{
+    		ch = checkStr.charAt(i);
+    		for (j = 0;  j < checkOK.length;  j++)
+      			if (ch == checkOK.charAt(j))
+       				break;
+    			if (j == checkOK.length)
+    			{
+      				allValid = false;
+      				break;
+    			}
+  		}
+  		if (!allValid)
+  		{
+    		alert("Escriba sólo letras en el campo Nombres");
+   			document.form1.Nombre.focus();
+    		return (false);
+  		}
+		
+	
+		else 
+		if ((document.form1.Email.value == "") || (document.form1.Email.value== null)) 
+		{
+			alert("Ingrese su E-mail"); 
+			document.form1.Email.focus();
+			return false;
+		}
+		else 
+		if ((document.form1.Email.value.indexOf ('@', 0) == -1)||(document.form1.Email.value.length < 5)) 
+		{ 
+    		alert("Debes escribir una dirección de E-mail válida"); 
+    		document.form1.Email.focus();
+    		return (false); 
+  		}
+		
+			else
+				if ((document.form1.Telefono.value == "") || (document.form1.Telefono.value== null)) 
+		{
+			alert("Ingrese su Teléfono"); 
+			document.form1.Telefono.focus();
+			return false;
+		}
+		else
+		var checkOK = "0123456789 ";
+ 		var checkStr = document.form1.Telefono.value;
+  		var allValid = true;
+  		for (i = 0;  i < checkStr.length;  i++)
+  		{
+    		ch = checkStr.charAt(i);
+    		for (j = 0;  j < checkOK.length;  j++)
+      			if (ch == checkOK.charAt(j))
+       				break;
+    			if (j == checkOK.length)
+    			{
+      				allValid = false;
+      				break;
+    			}
+  		}
+  		if (!allValid)
+  		{
+    		alert("Escriba sólo números en el campo Teléfono");
+   			document.form1.Telefono.focus();
+    		return (false);
+  		}
+		
+		
+		
+		if ((document.form1.Consulta.value == "") || (document.form1.Consulta.value== null)) 
+		{
+			alert("Ingrese sus comentarios"); 
+			document.form1.Consulta.focus();
+			return false;
+		}
+		else 
+		return true;
+		}
+</script>
+    <td>&nbsp;</td>
+    <td><div id="form_main">
+      <form name="form1" action="contacto.php" method="post" id="contactform">
+        <table width="500" border="0" cellspacing="4" cellpadding="0">
+          <tr>
+            <td width="70" valign="top" class="success"><br />
+              Nombre:</td>
+            <td width="430"><input type="text" name="Nombre" id="Nombre" />
+              <br />
+              <br /></td>
+          </tr>
+          <tr>
+            <td valign="top" class="success"><br />
+              Email:</td>
+            <td><input type="text" name="Email" id="Email" />
+              <br />
+              <br /></td>
+          </tr>
+          <tr>
+            <td valign="top" class="success"><br />
+              Tel&eacute;fono:</td>
+            <td><input type="text" name="Telefono" id="Telefono" />
+              <br />
+              <br /></td>
+          </tr>
+          <tr>
+            <td valign="top" class="success"><br />
+              Consulta:</td>
+            <td><p>
+              <textarea name="Consulta" id="Consulta" rows="4" cols=""></textarea>
+              <br />
+            </p>              </td>
+          </tr>
+          
+          <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" name="submit" id="submit" class="send" onclick="return verifica(this.form1)" value="Enviar" /></td>
+          </tr>
+        </table>
+        </form>
+      <ul id="form_response">
+        <li></li>
+      </ul>
+    </div></td>
+  </tr>
+</table>
+</body>
+</html>
