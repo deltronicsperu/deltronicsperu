@@ -11,7 +11,7 @@
 			"file": "empresa.html",
 			"settings":
 			{
-				"buffer_size": 5416,
+				"buffer_size": 5417,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -54,6 +54,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/empresa.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/servicios.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/soporte.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/contactenos.html",
@@ -103,15 +104,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5416,
+						"buffer_size": 5417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5036,
-								5036
+								4933,
+								4933
 							]
 						],
 						"settings":
@@ -121,7 +122,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 961.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
