@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "servicios.html",
+			"file": "empresa.html",
 			"settings":
 			{
-				"buffer_size": 7524,
+				"buffer_size": 5416,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -54,10 +54,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/servicios.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/soporte.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/contactenos.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/clientes.html",
-		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/servicios.html",
 		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/index.html",
 		"/C/Users/Admin/Documents/index.html"
 	],
@@ -99,29 +99,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "servicios.html",
+					"file": "empresa.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7524,
+						"buffer_size": 5416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7142,
-								7142
+								5036,
+								5036
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1439.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
