@@ -8,28 +8,22 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "clientes.html",
 			"settings":
 			{
-				"buffer_size": 10988,
+				"buffer_size": 7462,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "servicios.html",
-			"settings":
-			{
-				"buffer_size": 7524,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "<!doctype html>\n<html lang=\"es\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<title> DELTRONICS </title>\n    <script src=\"Scripts/swfobject_modified.js\" type=\"text/javascript\"></script>\n\n        <!-- ANALYTICS Sep 2015 -->\n    <script>\n      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n      ga('create', 'UA-67849815-1', 'auto');\n      ga('send', 'pageview');\n\n    </script>\n\n    <script type=\"text/javascript\">\n    (function() {\n    var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;\n    hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);\n    })();\n    </script>\n\n\t</head>\n\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n\n\t<body>\n    \t<div id=\"pagina\">\n        \t<div id=\"cabecera\">\n           \t  <object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"1000\" height=\"500\">\n            \t  <param name=\"movie\" value=\"arriba.swf\">\n            \t  <param name=\"quality\" value=\"high\">\n            \t  <param name=\"wmode\" value=\"opaque\">\n            \t  <param name=\"swfversion\" value=\"15.0.0.0\">\n            \t  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->\n            \t  <param name=\"expressinstall\" value=\"Scripts/expressInstall.swf\">\n            \t  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->\n            \t  <!--[if !IE]>-->\n            \t  <object type=\"application/x-shockwave-flash\" data=\"arriba.swf\" width=\"1000\" height=\"500\">\n            \t    <!--<![endif]-->\n            \t    <param name=\"quality\" value=\"high\">\n            \t    <param name=\"wmode\" value=\"opaque\">\n            \t    <param name=\"swfversion\" value=\"15.0.0.0\">\n            \t    <param name=\"expressinstall\" value=\"Scripts/expressInstall.swf\">\n            \t    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->\n            \t    <div>\n            \t      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>\n            \t      <p><a href=\"http://www.adobe.com/go/getflashplayer\"><img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Obtener Adobe Flash Player\" width=\"112\" height=\"33\" /></a></p>\n          \t      </div>\n            \t    <!--[if !IE]>-->\n          \t    </object>\n            \t  <!--<![endif]-->\n          \t  </object>\n          </div>\n                \n                <div id=\"contenido4\">\n            \t\t<div id=\"Subtitulo\">\n                \t\t<img src=\"imagenes/contactenostit.jpg\">\n                \t</div>\n                    <div id=\"texto_7\">\n                    \t<b>Dirección:</b> Av. Los Tusilagos Oeste 149A, San Juan de Lurigancho, Lima <br>\n                        <b>Movistar:</b> 947552485 <br>\n                        <b>RPM:</b> #947552485 <br>\n                        <b>Movistar:</b> 996114069 <br>\n                        <b>RPM:</b> #996114069 <br> \n                        <b>Teléfono:</b> (511)376-0866 <br>\n                        <b>E-mail:</b> <a href=\"mailto:ventas@deltronicsperu.com\"> ventas@deltronicsperu.com</a> <br><br>\n                    \t<iframe name=miframeflotante src=\"1/contacto.htm\" width=450 height=\"400\" frameborder=0 scrolling=no marginwidth=0 marginheight=0 align=left allowtransparency=\"true\">Tu navegador no soporta frames!!</iframe>\n                     </div>\n                     <div id=\"mapa\"><div id=\"Subtitulo\">Ubícanos</div>\n                     <iframe width=\"330\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com.pe/maps?f=d&amp;source=s_d&amp;saddr=Av+los+Jardines+Este&amp;daddr=&amp;geocode=Fb7bSP8ddRpp-w&amp;sll=-12.002367,-76.998029&amp;sspn=0.004565,0.008256&amp;hl=es-419&amp;dirflg=w&amp;mra=ltm&amp;ie=UTF8&amp;t=m&amp;ll=-12.002362,-76.998024&amp;spn=0.003673,0.003541&amp;z=17&amp;output=embed\"></iframe><br /><small><a href=\"https://maps.google.com.pe/maps?f=d&amp;source=embed&amp;saddr=Av+los+Jardines+Este&amp;daddr=&amp;geocode=Fb7bSP8ddRpp-w&amp;sll=-12.002367,-76.998029&amp;sspn=0.004565,0.008256&amp;hl=es-419&amp;dirflg=w&amp;mra=ltm&amp;ie=UTF8&amp;t=m&amp;ll=-12.002362,-76.998024&amp;spn=0.003673,0.003541&amp;z=17\" style=\"color:#0000FF;text-align:left\">Ver mapa más grande</a></small>\n                     </div>\n                      <div id=\"img\">\n                 \t\t<img src=\"imagenes/call_center_girl.jpg\" width=\"200\"><br><br><br><br>\n                        \n                 \t </div>\n                 </div>\n                 <div id=\"CR\" style=\"text-align:center\">\n                        Av. Los Tusilagos Oeste 149A, San Juan de Lurigancho, Lima /  Movistar: 947552485 - 996114069 /  <br>Teléfono: (511)376-0866 / E-mail: ventas@deltronicsperu.com\n                 </div>\n                 <div id=\"firma\" style=\"text-align:right\">\n                 \tDesarrollado por: <a href=\"http://www.aguirrenet.net/\"> AGUIRRENET S.A.C. </a>\n                 </div>\n            </div>\n    <script type=\"text/javascript\">\nswfobject.registerObject();\n        </script>\n\t</body>\n</html>\n\n\n\n",
 			"file": "contactenos.html",
+			"file_size": 5732,
+			"file_write_time": 131496390076284882,
 			"settings":
 			{
-				"buffer_size": 5619,
+				"buffer_size": 5611,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -72,6 +66,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/servicios.html",
+		"/C/Users/Admin/Documents/GitHub/deltronicsperu.github.io/index.html",
 		"/C/Users/Admin/Documents/index.html"
 	],
 	"find":
@@ -107,24 +103,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "clientes.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10988,
+						"buffer_size": 7462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10458,
-								10546
+								7072,
+								7072
 							]
 						],
 						"settings":
@@ -134,57 +130,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2534.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "servicios.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7524,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7111,
-								7111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1497.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "contactenos.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5619,
+						"buffer_size": 5611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5226,
-								5226
+								3515,
+								3515
 							]
 						],
 						"settings":
@@ -194,10 +160,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 989.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
