@@ -11,7 +11,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10982,
+				"buffer_size": 10988,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "servicios.html",
+			"settings":
+			{
+				"buffer_size": 7524,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contactenos.html",
+			"settings":
+			{
+				"buffer_size": 5619,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -89,7 +107,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -98,15 +116,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10982,
+						"buffer_size": 10988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10555,
-								10555
+								10458,
+								10546
 							]
 						],
 						"settings":
@@ -119,7 +137,67 @@
 						"translation.y": 2534.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "servicios.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7111,
+								7111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1497.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contactenos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5226,
+								5226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 989.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
